@@ -1,0 +1,4 @@
+language: csharp
+solution: AutoEmptyEx.sln
+script:
+  - xbuild /p:Configuration=Release AutoEmptyEx.sln
